@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Main {
     public static void main(String[] args) {
         // Establece la ubicación del ejecutable del controlador de Chrome
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\SSSA\\Downloads\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\SSSA\\Documents\\NetBeansProjects\\pruebaBancolombia\\chromedriver-win64\\chromedriver.exe");
 
         // Inicializa el controlador de Chrome
         WebDriver driver = new ChromeDriver();
